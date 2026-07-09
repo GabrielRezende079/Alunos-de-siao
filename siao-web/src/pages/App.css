@@ -33,7 +33,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #0e0e12;
+  background: #ffffff;
   padding: 24px 12px;
 }
 
@@ -50,7 +50,7 @@ body{
     radial-gradient(circle at 90% 15%, rgba(251, 191, 140, 0.55), transparent 45%),
     radial-gradient(circle at 20% 90%, rgba(167, 139, 250, 0.5), transparent 45%),
     radial-gradient(circle at 85% 80%, rgba(196, 181, 253, 0.45), transparent 45%),
-    #fbfaf9;
+    #ffffff;
   overflow: hidden;
   box-shadow: 0 40px 80px rgba(0,0,0,0.5);
   display: flex;
