@@ -21,7 +21,9 @@ const emptyForm: AlunoForm = {
   observacoesAluno: '',
 }
 
-const apiBaseUrl = import.meta.env.VITE_API_URL ?? '/api'
+const apiBaseUrl =
+  import.meta.env.VITE_API_URL ??
+  (import.meta.env.PROD ? 'https://alunos-de-siao.onrender.com' : '/api')
 const colorCycle = ['#22C55E', '#F97316', '#7C3AED', '#0EA5E9']
 
 const cakeIcon = (
